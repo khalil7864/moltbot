@@ -39,4 +39,4 @@ USER node
 
 
 
-CMD ["node", "dist/index.js", "gateway", "--port", "18789", "--bind", "0.0.0.0", "--allow-unconfigured"]
+CMD ["node", "dist/index.js", "gateway", "--port", "18789", "--bind", "lan", "--allow-unconfigured"]
